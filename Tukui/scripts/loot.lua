@@ -154,14 +154,9 @@ addon:RegisterForClicks"anyup"
 addon:SetParent(UIParent)
 addon:SetUserPlaced(true)
 addon:SetPoint("TOPLEFT", 0, TukuiDB.Scale(-104))
-addon:SetBackdrop{
-	bgFile = TukuiCF["Textures"].blank, tile = true, tileSize = TukuiDB.Scale(16),
-	edgeFile = TukuiCF["Textures"].blank, edgeSize = TukuiDB.mult,
-	insets = {left = -TukuiDB.mult, right = -TukuiDB.mult, top = -TukuiDB.mult, bottom = -TukuiDB.mult},
-}
 addon:SetWidth(TukuiDB.Scale(256))
 addon:SetHeight(TukuiDB.Scale(64))
-addon:SetBackdropColor(0.1, 0.1, 0.1, 1)
+TukuiDB.SkinPanel(addon)
 
 addon:SetClampedToScreen(true)
 addon:SetClampRectInsets(0, 0, TukuiDB.Scale(14), 0)
