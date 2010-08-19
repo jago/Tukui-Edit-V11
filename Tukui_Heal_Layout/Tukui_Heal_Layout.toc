@@ -1,0 +1,10 @@
+## Interface: 30300
+## Author: Tukz
+## Title: |cffC495DDTukui|r Heal Layout
+## Notes: Heal layout for party and raid.
+## X-Email: tukz@tukui.org
+## X-Category: UnitFrame
+## RequiredDeps: Tukui
+
+oUF_Tukz_party.lua
+oUF_Tukz_raid.lua
