@@ -1,11 +1,11 @@
-if TukuiCF["Datatext"].wg and TukuiCF["Datatext"].wg > 0 then
+if TukuiCF["Datatext"].wintergrasp and TukuiCF["Datatext"].wintergrasp > 0 then
 	local Stat = CreateFrame("Frame")
 	Stat:SetFrameStrata("HIGH")
 	Stat:EnableMouse(true)
 	
 	local Text  = TukuiDataLeft:CreateFontString(nil, "LOW")
 	Text:SetFont(TukuiCF["Datatext"].font, TukuiCF["Datatext"].fontsize)
-	TukuiDB.PP(TukuiCF["Datatext"].wg, Text)
+	TukuiDB.PP(TukuiCF["Datatext"].wintergrasp, Text)
 
 	local function Update(self)
 		local wgtime = GetWintergraspWaitTime() or nil

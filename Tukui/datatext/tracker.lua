@@ -4,7 +4,7 @@
 
 ]]
 
-if TukuiCF["Datatext"].track and TukuiCF["Datatext"].track > 0 then
+if TukuiCF["Datatext"].tracker and TukuiCF["Datatext"].tracker > 0 then
 	local Stat = CreateFrame("Frame")
 	Stat:SetFrameStrata("HIGH")
 	Stat:EnableMouse(true)
@@ -12,7 +12,7 @@ if TukuiCF["Datatext"].track and TukuiCF["Datatext"].track > 0 then
 	local Text  = TukuiDataLeft:CreateFontString(nil, "LOW")
 	Text:SetFont(TukuiCF["Datatext"].font, TukuiCF["Datatext"].fontsize)
 	Text:SetWidth(100)
-	TukuiDB.PP(TukuiCF["Datatext"].track, Text)
+	TukuiDB.PP(TukuiCF["Datatext"].tracker, Text)
 
 	local function OnEvent(self)
 	local tracking = false
