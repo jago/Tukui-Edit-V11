@@ -6,7 +6,7 @@
 
 if IsAddOnLoaded("OmniCC") or IsAddOnLoaded("ncCooldown") or not TukuiCF["Cooldown"].enable then return end
 
-local TEXT_FONT = TukuiDB.Font.font
+local TEXT_FONT = TukuiCF["Fonts"].font
 local FONT_SIZE = 15
 local MIN_SCALE = 0.5
 local MIN_DURATION = 3
