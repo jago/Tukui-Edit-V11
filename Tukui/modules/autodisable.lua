@@ -7,15 +7,15 @@ if TukuiCF["Actionbars"].rightbars > 3 then
 end
 
 ------------------------------------------------------------------------
--- temporary healermode no portrait crap
+-- temporary healermode no portrait crap and resolution restriction
 ------------------------------------------------------------------------
-
-if TukuiCF["Unitframes"].healermode then
-	TukuiCF["Unitframes"].charportrait = false
-end
 
 if TukuiDB.lowversion then
 	TukuiCF["Unitframes"].healermode = false
+else
+	if TukuiCF["Unitframes"].healermode then
+		TukuiCF["Unitframes"].charportrait = false
+	end
 end
 
 ------------------------------------------------------------------------
