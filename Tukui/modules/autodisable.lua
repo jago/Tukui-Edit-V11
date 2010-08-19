@@ -14,6 +14,10 @@ if TukuiCF["Unitframes"].healermode then
 	TukuiCF["Unitframes"].charportrait = false
 end
 
+if TukuiDB.lowversion then
+	TukuiCF["Unitframes"].healermode = false
+end
+
 ------------------------------------------------------------------------
 -- overwrite font for some language
 ------------------------------------------------------------------------
