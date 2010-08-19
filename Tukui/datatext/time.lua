@@ -112,7 +112,7 @@ if TukuiCF["Datatext"].wowtime and TukuiCF["Datatext"].wowtime > 0 then
 		if TukuiCF["Datatext"].localtime then
 			local Hr, Min = GetGameTime()
 			if Min<10 then Min = "0"..Min end
-			if TukuiDB.Datatext.time24 == true then         
+			if TukuiCF["Datatext"].time24 == true then         
 				GameTooltip:AddDoubleLine(tukuilocal.datatext_servertime,Hr .. ":" .. Min);
 			else             
 				if Hr>=12 then
