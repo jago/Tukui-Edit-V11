@@ -67,8 +67,8 @@ TukuiCF["Datatext"] = {
 	["arp"] = 2, 
 	["avoidance"] = 3, 
 	["bags"] = 4, 
-	["crit"] = 5, 
-	["durability"] = 6, 
+	["crit"] = 0, 
+	["durability"] = 0, 
 	["fps"] = 7, 
 	["friends"] = 8, 
 	["gold"] = 9, 
@@ -76,9 +76,9 @@ TukuiCF["Datatext"] = {
 	["haste"] = 11, 
 	["memory"] = 12, 
 	["power"] = 13, 
-	["time"] = 14, 
-	["tracker"] = 15, 
-	["wintergrasp"] = 16, 
+	["wowtime"] = 14, 
+	["tracker"] = 5, 
+	["wintergrasp"] = 6, 
 	
 	["localtime"] = true,								-- Don't you own a clock?
 	["time24"] = true,									-- I'm not normal
@@ -134,7 +134,7 @@ TukuiCF["Tooltip"] = {
 
 TukuiCF["Unitframes"] = {
 	["enable"] = true, 								-- Oh come on you should've worked this out by now...
-	["healermode"] = true, 						-- EXPERIMENTAL -- Really, a lot asked for this so I'm testing it out
+	["healermode"] = false, 						-- EXPERIMENTAL -- Really, a lot asked for this so I'm testing it out
 	
 	["unitcastbar"] = true, 							-- Enable Tukui castbars
 	["cblatency"] = true, 							-- Got latency?
