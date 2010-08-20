@@ -867,15 +867,15 @@ local Shared = function(self, unit)
 			health.colorDisconnected = true
 			health.colorReaction = false
 			health.colorClass = true
-			health.bg.multiplier = 0.3
-				
+			healthBg.multiplier = 0.3
+			
 			power.colorPower = true
 			powerBg.multiplier = 0.4
 		else
 			health.colorDisconnected = false
 			health.colorClass = false
 			health:SetStatusBarColor(.15,.15,.15)
-				
+			
 			power.colorClass = true
 		end
 
