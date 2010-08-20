@@ -1,4 +1,4 @@
-if not TukuiCF["Unitframes"].enable or TukuiCF["Unitframes"].showsmooth then return end
+if not TukuiCF["Unitframes"].enable or not TukuiCF["Unitframes"].showsmooth then return end
 if not oUF then return end
 
 local smoothing = {}
