@@ -985,7 +985,7 @@ local Shared = function(self, unit)
 
 		name = TukuiDB.SetFontString(health, font, 12)
 		name:SetPoint("CENTER", health, "CENTER", 0, 0)
-		self:Tag(Name, '[Tukui:getnamecolor][Tukui:namelong] [Tukui:diffcolor][level] [shortclassification]')
+		self:Tag(name, '[Tukui:getnamecolor][Tukui:namelong] [Tukui:diffcolor][level] [shortclassification]')
 		self.Name = name
 
 		health.frequentUpdates = true
