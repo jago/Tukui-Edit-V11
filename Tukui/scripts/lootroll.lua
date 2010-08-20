@@ -7,7 +7,7 @@ if not TukuiCF["Loot"].lootrollframe then return end
 
 local backdrop = {
 	bgFile = TukuiCF["Textures"].empath, tile = true, tileSize = 0,
-	edgeFile = TukuiCF["Textures"].empath, edgeSize = TukuiDB.mult,
+	edgeFile = TukuiCF["Textures"].blank, edgeSize = TukuiDB.mult,
 	insets = {left = -TukuiDB.mult, right = -TukuiDB.mult, top = -TukuiDB.mult, bottom = -TukuiDB.mult},
 }
 
