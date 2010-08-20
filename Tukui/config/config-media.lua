@@ -26,3 +26,14 @@ TukuiCF["Sound"] = {
 	-- Really? Wouldn't have guessed, you're an idiot.
 	-- :D
 }
+
+-- Fix for skinned addons
+TukuiCF["media"] = {
+        font = TukuiCF["Fonts"].font,
+		
+        normTex = TukuiCF["Textures"].empath,
+        blank = TukuiCF["Textures"].blank,
+		
+        backdropcolor = TukuiCF["Colors"].backdropcolor,
+        bordercolor = TukuiCF["Colors"].bordercolor,
+}
